@@ -93,7 +93,7 @@ This simulator helps visualize how these two memory types are managed, and how O
    ├── Execution_Output_For_All_Test_Cases.pdf
    └── README.md
    ```
-👨‍💻 Authors
+## 👨‍💻 Authors
 - Reem Saleh Saeed Al Malki
 - Asail Mashhour Alamoudi
 - Shahad Maher Magram
