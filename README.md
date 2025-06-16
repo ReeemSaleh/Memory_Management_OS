@@ -84,10 +84,10 @@ This simulator helps visualize how these two memory types are managed, and how O
    ├── test/
    ├── src/
    │   ├── Part1/                             
-   │   │   ├── Block.java                     # Class for memory block structure
-   │   │   └── MainMemorySimulator.java      # Main memory management simulator
+   │   │   ├── block.java                     # Class for memory block structure
+   │   │   └── mainMemorySimulator.java      # Main memory management simulator
    │   └── Part2/
-   │       └── VirtualMemorySimulator.java   # Virtual memory translation and paging
+   │       └── virtualMemorySimulator.java   # Virtual memory translation and paging
    ├── Addresses.txt
    ├── Correct.txt
    ├── Execution_Output_For_All_Test_Cases.pdf
