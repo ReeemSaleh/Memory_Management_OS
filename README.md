@@ -46,35 +46,50 @@ Displays the current state of memory:
 
 ### 📍 Virtual Memory Simulation
 
-Simulates the translation of logical addresses to physical addresses for a 65,536-byte virtual address space.
+> Simulates the translation of logical addresses to physical addresses for a 65,536-byte virtual address space.
+>
+> #### 🧭 Logical to Physical Address Translation
+> - Reads 100 logical addresses from a file (`addresses.txt`)
+> - Translates each address using a page table
+> - Stores the correct signed byte into physical memory
+>
+> #### 🧪 Testing and Validation
+> - Randomly selects 5 logical addresses  
+> - Outputs:
+>   - Logical Address  
+>   - Physical Address  
+>   - Corresponding signed byte value from physical memory  
+> - Compares values with expected results
+>
+> #### 📈 Statistics
+> Prints:
+> - Total number of addresses processed  
+> - Number of page faults  
+> - Hit/miss rate for address translation
+>
+> #### 🔁 Page Replacement (FIFO)
+> Implements a **First-In-First-Out (FIFO)** page replacement policy:
+> - Handles page faults when memory is full  
+> - Replaces the oldest loaded page with the new one  
+> - Updates both the page table and physical memory  
+> - Outputs details of each page replacement
 
-#### 🧭 Logical to Physical Address Translation
+## 📁 Project Structure
 
-- Reads 100 logical addresses from a file (`addresses.txt`)
-- Translates each address using a page table
-- Stores the correct signed byte into physical memory
-
-#### 🧪 Testing and Validation
-
-- Randomly selects 5 logical addresses
-- Outputs:
-  - Logical Address
-  - Physical Address
-  - Corresponding signed byte value from physical memory
-- Compares values with expected results
-
-#### 📈 Statistics
-
-Prints:
-- Total number of addresses processed
-- Number of page faults
-- Hit/miss rate for address translation
-
-#### 🔁 Page Replacement (FIFO)
-
-Implements a **First-In-First-Out (FIFO)** page replacement policy:
-- Handles page faults when memory is full
-- Replaces the oldest loaded page with the new one
-- Updates both the page table and physical memory
-- Outputs details of each page replacement
-
+   ```bash
+   Memory_Management_OS/
+   ├── build/
+   ├── dist/
+   ├── nbproject/
+   ├── test/
+   ├── src/
+   │   ├── Part1/                             
+   │   │   ├── Block.java                     # Class for memory block structure
+   │   │   └── MainMemorySimulator.java      # Main memory management simulator
+   │   └── Part2/
+   │       └── VirtualMemorySimulator.java   # Virtual memory translation and paging
+   ├── Addresses.txt
+   ├── Correct.txt
+   ├── Execution_Output_For_All_Test_Cases.pdf
+   └── README.md
+   ```
