@@ -95,6 +95,6 @@ This simulator helps visualize how these two memory types are managed, and how O
    ```
 ## 👨‍💻 Authors
 - Reem Saleh Saeed Al Malki
-- Asail Mashhour Alamoudi
+- Asail Mashhour Al Amoudi
 - Shahad Maher Magram
 - Seham Khaldoun Nahlawi
