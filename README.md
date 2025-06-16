@@ -13,36 +13,36 @@ This simulator helps visualize how these two memory types are managed, and how O
 
 ### 📍 Main Memory Management
 
-Simulates the management of a contiguous block of memory with user-defined size, including:
-
-- Allocation and deallocation of memory blocks
-- Memory compaction to reduce fragmentation
-- Visualizing the status of allocated and free regions
-
-#### 🧩 Memory Allocation (RQ)
-
-Supports three memory allocation strategies:
-
-| Strategy   | Flag | Description |
-|------------|------|-------------|
-| First Fit  | `F`  | Allocates the first suitable free block |
-| Best Fit   | `B`  | Allocates the smallest block that fits |
-| Worst Fit  | `W`  | Allocates the largest available block |
-
-#### 🧹 Memory Release (RL)
-
-Deallocates a memory block. If the released block is adjacent to a free region, it merges them into a single hole to reduce fragmentation and improve allocation efficiency.
-
-#### 📦 Memory Compaction (C)
-
-Shifts allocated memory blocks to combine all free spaces into one large block, maximizing space utilization and reducing fragmentation.
-
-#### 📊 Status Report (STAT)
-
-Displays the current state of memory:
-- Allocated regions
-- Free regions
-- Memory usage summary
+> Simulates the management of a contiguous block of memory with user-defined size, including:
+>
+> - Allocation and deallocation of memory blocks  
+> - Memory compaction to reduce fragmentation  
+> - Visualizing the status of allocated and free regions
+>
+> #### 🧩 Memory Allocation (RQ)
+>
+> Supports three memory allocation strategies:
+>
+> | Strategy   | Flag | Description                                  |
+> |------------|------|----------------------------------------------|
+> | First Fit  | `F`  | Allocates the first suitable free block      |
+> | Best Fit   | `B`  | Allocates the smallest block that fits       |
+> | Worst Fit  | `W`  | Allocates the largest available block        |
+>
+> #### 🧹 Memory Release (RL)
+>
+> Deallocates a memory block. If the released block is adjacent to a free region, it merges them into a single hole to reduce fragmentation and improve allocation efficiency.
+>
+> #### 📦 Memory Compaction (C)
+>
+> Shifts allocated memory blocks to combine all free spaces into one large block, maximizing space utilization and reducing fragmentation.
+>
+> #### 📊 Status Report (STAT)
+>
+> Displays the current state of memory:
+> - Allocated regions  
+> - Free regions  
+> - Memory usage summary
 
 ### 📍 Virtual Memory Simulation
 
