@@ -1,0 +1,6 @@
+Instructions for executing the programs:
+1-Make sure you download Apache NetBeans IDE 16 version 16 (Note:There are some features may not work on older versions)
+2-Download the project file
+3-Decompress the file.
+4-Open netbeans and open the project file each program in separate package(Part1 and Part2).
+5-Run the programs.
