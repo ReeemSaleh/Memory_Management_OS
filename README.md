@@ -9,7 +9,6 @@ This project simulates two key types of memory:
 
 This simulator helps visualize how these two memory types are managed, and how OS decisions affect system performance.
 
-
 ## 🛠️ Features
 
 ### 📍 Main Memory Management
@@ -45,8 +44,6 @@ Displays the current state of memory:
 - Free regions
 - Memory usage summary
 
----
-
 ### 📍 Virtual Memory Simulation
 
 Simulates the translation of logical addresses to physical addresses for a 65,536-byte virtual address space.
@@ -80,6 +77,4 @@ Implements a **First-In-First-Out (FIFO)** page replacement policy:
 - Replaces the oldest loaded page with the new one
 - Updates both the page table and physical memory
 - Outputs details of each page replacement
-
----
 
