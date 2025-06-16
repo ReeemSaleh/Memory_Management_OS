@@ -78,10 +78,6 @@ This simulator helps visualize how these two memory types are managed, and how O
 
    ```bash
    Memory_Management_OS/
-   ├── build/
-   ├── dist/
-   ├── nbproject/
-   ├── test/
    ├── src/
    │   ├── Part1/                             
    │   │   ├── block.java                    # Class for memory block structure
